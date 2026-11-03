@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resultados · Projeto Vassoural</title>
+<meta name="robots" content="noindex"><!-- tirar quando o site for validado -->
+<meta name="description" content="Campanhas do Projeto Vassoural e a prestação de contas do que foi arrecadado e entregue.">
+<script>(function(){var m=/[?&]previa=(1|0)/.exec(location.search),v=m&&m[1];try{if(m)sessionStorage.setItem("previa",m[1]);v=sessionStorage.getItem("previa");}catch(e){}if(v==="1")document.documentElement.classList.add("previa");})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Source+Sans+3:ital,wght@0,400..700;1,400&family=Montserrat:wght@500;800&display=swap">
+<link rel="stylesheet" href="css/site.css">
+<script src="js/dados.js" defer></script>
+<script src="js/site.js" defer></script>
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header class="topo">
+  <div class="envoltorio">
+    <a class="marca" href="index.html" aria-label="Projeto Vassoural, página inicial">
+      <svg viewBox="0 0 440 100" aria-hidden="true"><path fill="#c99a41" d="M0 0H82L73 17H26L47 70L59 39H72L49 100H44Z"/><text x="100" y="33" font-family="Montserrat, sans-serif" font-weight="500" font-size="21" textLength="336" lengthAdjust="spacing" fill="currentColor">PROJETO</text><text x="98" y="94" font-family="Montserrat, sans-serif" font-weight="800" font-size="52" textLength="340" lengthAdjust="spacingAndGlyphs" fill="currentColor">VASSOURAL</text></svg>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <button class="menu-botao" type="button" aria-expanded="false" aria-controls="nav-extra">Menu</button>
+      <div class="nav-extra" id="nav-extra">
+        <a href="index.html#atividades">Atividades</a>
+        <a href="quem-somos.html">Quem somos</a>
+        <a href="resultados.html" aria-current="page">Resultados</a>
+      </div>
+      <a class="nav-participar" href="participar.html">Como participar</a>
+      <a class="nav-apoiar" href="apoiar.html">Como apoiar</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+
+  <section class="secao--curta envoltorio" style="padding-top:64px">
+    <h1 style="font-size:var(--t-3xl);max-width:18ch">O que cada campanha arrecadou</h1>
+    <p class="lead" style="margin-top:24px">Cada campanha conta do que precisava e como as pessoas ajudaram. Quando ela termina, o resultado aparece aqui, com o link de onde ele foi publicado. <a href="#contas">Ir direto para a prestação de contas</a></p>
+  </section>
+
+  <section class="secao--curta envoltorio" aria-labelledby="campanhas-titulo">
+    <h2 id="campanhas-titulo" class="titulo-fita"><span class="fita">Campanhas</span></h2>
+    <div class="grade"><div class="c-8" id="lista-campanhas"></div></div>
+  </section>
+
+  <section class="secao faixa-nevoa" id="contas" aria-labelledby="contas-titulo">
+    <div class="envoltorio grade">
+      <div class="c-4">
+        <h2 id="contas-titulo" class="titulo-fita giro-direita"><span class="fita">Prestação de contas</span></h2>
+        <p>O que foi arrecadado e o que foi entregue, separados, da atualização mais recente para a mais antiga.</p>
+        <p class="apoio">Valores em reais só aparecem ligados a quimonos, materiais ou cestas quando o projeto tiver os custos confirmados.</p>
+      </div>
+      <div class="c-8 tabela-envoltorio">
+        <table class="contas">
+          <caption>Clique no nome da campanha para ver onde o número foi publicado.</caption>
+          <thead><tr><th scope="col">Quando</th><th scope="col">Campanha</th><th scope="col">Arrecadado</th><th scope="col">Entregue</th></tr></thead>
+          <tbody id="contas-corpo"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao envoltorio" aria-labelledby="novidades-titulo">
+    <h2 id="novidades-titulo" class="titulo-fita giro-leve"><span class="fita">No Instagram</span></h2>
+    <ul class="novidades" id="novidades"></ul>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="envoltorio grade">
+    <div class="c-7">
+      <a class="marca" href="index.html" aria-label="Projeto Vassoural, página inicial">
+        <svg viewBox="0 0 440 100" aria-hidden="true"><path fill="#c99a41" d="M0 0H82L73 17H26L47 70L59 39H72L49 100H44Z"/><text x="100" y="33" font-family="Montserrat, sans-serif" font-weight="500" font-size="21" textLength="336" lengthAdjust="spacing" fill="currentColor">PROJETO</text><text x="98" y="94" font-family="Montserrat, sans-serif" font-weight="800" font-size="52" textLength="340" lengthAdjust="spacingAndGlyphs" fill="currentColor">VASSOURAL</text></svg>
+      </a>
+      <p>Jiu-jítsu e inglês para crianças e arrecadação de alimentos no bairro Vassoural, em Louveira (SP).</p>
+    </div>
+    <div class="c-5">
+      <ul>
+        <li><a data-contato="instagram" href="https://www.instagram.com/projetovassoural/" rel="noopener">@projetovassoural no Instagram</a></li>
+        <li><a href="participar.html">Como participar</a></li>
+        <li><a href="apoiar.html">Como apoiar</a></li>
+        <li><a href="resultados.html#contas">Prestação de contas</a></li>
+        <li class="so-previa"><a href="pendencias.html">Pendências da prévia</a></li>
+      </ul>
+    </div>
+    <small class="c-12">Atualizado em novembro de 2026.</small>
+  </div>
+</footer>
+</body>
+</html>
