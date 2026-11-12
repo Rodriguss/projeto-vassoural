@@ -277,6 +277,7 @@
       el("div", { classe: "envoltorio" }, [
         el("span", { texto: "Prévia da equipe. O que está tracejado ainda não aparece no site público." }),
         el("a", { href: "pendencias.html", texto: "O que falta validar" }),
+        el("a", { href: "fotos.html", texto: "Fotos que precisamos" }),
         el("a", { href: aqui + "?previa=0", texto: "Ver como o público vê" })
       ])
     ]), document.body.firstChild.nextSibling);

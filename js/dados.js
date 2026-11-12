@@ -59,12 +59,12 @@ window.VASSOURAL = {
     "medalha-2019":         { rotulo: "Registro da homenagem", url: "" },
     "copa-keisei-2025":     { rotulo: "Copa Keisei", url: "" },
     "graduacao-nov-2025":   { rotulo: "Graduação de novembro", url: "" },
-    "truco-2026":           { rotulo: "Truco Solidário", url: "" },
-    "mocao-10-anos":        { rotulo: "Moção pelos 10 anos", url: "" },
-    "garra-relato":         { rotulo: "Relato da Garra BJJ", url: "" },
-    "acao-outubro-2026":    { rotulo: "Ação de outubro", url: "" },
-    "dia-criancas-2026":    { rotulo: "Dia das Crianças", url: "" },
-    "natal-2026":           { rotulo: "Anúncio do Natal Solidário", url: "" }
+    "truco-2026":           { rotulo: "Truco Solidário", url: "https://www.instagram.com/reel/DcJtg6ypvM2/" },
+    "mocao-10-anos":        { rotulo: "Moção pelos 10 anos", url: "https://www.instagram.com/reel/DczMES_SmcJ/" },
+    "garra-relato":         { rotulo: "Relato da Garra BJJ", url: "https://www.instagram.com/p/DQ2xRSHE6j2/" },
+    "acao-outubro-2026":    { rotulo: "Ação de outubro", url: "https://www.instagram.com/reel/De5GqniSxS2/" },
+    "dia-criancas-2026":    { rotulo: "Dia das Crianças", url: "https://www.instagram.com/reel/DeZbB5oRB_O/" },
+    "natal-2026":           { rotulo: "Anúncio do Natal Solidário", url: "https://www.instagram.com/reel/DfAu3pCijcv/" }
   },
 
   /* CAMPANHAS
@@ -201,9 +201,9 @@ window.VASSOURAL = {
      Publicações selecionadas do Instagram: data, legenda curta e link do post.
      Sem link, o item fica só na prévia. */
   novidades: [
-    { data: "2026-10", legenda: "Natal Solidário: as Caixas Mágicas Solidárias chegam aos comércios de Louveira.", url: "" },
-    { data: "2026-10", legenda: "Calçados personalizados: cada criança escolheu como queria o seu.", url: "" },
-    { data: "2026-09", legenda: "O registro da moção recebida na Câmara pelos 10 anos do projeto.", url: "" },
-    { data: "2026-08", legenda: "1º Truco Solidário: mais de 100 cestas básicas, segundo o projeto.", url: "" }
+    { data: "2026-10", legenda: "Natal Solidário: as Caixas Mágicas Solidárias chegam aos comércios de Louveira.", url: "https://www.instagram.com/reel/DfAu3pCijcv/" },
+    { data: "2026-10", legenda: "Calçados personalizados: cada criança escolheu como queria o seu.", url: "https://www.instagram.com/reel/De5GqniSxS2/" },
+    { data: "2026-09", legenda: "O registro da moção recebida na Câmara pelos 10 anos do projeto.", url: "https://www.instagram.com/reel/DczMES_SmcJ/" },
+    { data: "2026-08", legenda: "1º Truco Solidário: mais de 100 cestas básicas, segundo o projeto.", url: "https://www.instagram.com/reel/DcJtg6ypvM2/" }
   ]
 };
